@@ -4,8 +4,8 @@ const incorrectButton = document.getElementById('incorrect-button');
 
 // ② Audioオブジェクトを作成（音声をメモリにロード）
 // ファイル名: seikai.mp3 と machigai.mp3 があると仮定します。
-const correctSound = new Audio('seikai.m4a'); 
-const incorrectSound = new Audio('hazure.m4a');
+const correctSound = new Audio('voice/seikai.m4a'); 
+const incorrectSound = new Audio('voice/hazure.m4a');
 
 /**
  * 音声を再生する関数
