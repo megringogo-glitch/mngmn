@@ -7,6 +7,10 @@ const incorrectButton = document.getElementById('incorrect-button');
 const correctSoundFiles = [
     'voice/seikai-Tanji.m4a',
     'voice/seikai-Nakane.m4a',
+    'voice/seikai-Fujimoto.m4a',
+    'voice/seikai-Sugimoto.m4a',
+    'voice/seikai-Akutsu.m4a',
+    'voice/seikai-Ohashi.m4a',
     'voice/seikai.m4a'
 ]; 
 const incorrectSoundFiles = [
@@ -15,6 +19,12 @@ const incorrectSoundFiles = [
     'voice/hazure-iimura1.m4a',
     'voice/hazure-iimura2.m4a',
     'voice/hazure-iimura3.m4a',
+    'voice/hazure-Fujimoto.m4a',
+    'voice/hazure-Sugimoto.m4a',
+    'voice/hazure-Usami.m4a',       
+    'voice/hazure-Ohashi.m4a',
+    'voice/hazure-Usami.m4a'       
+    'voice/hazure-Akutsu.m4a',
     'voice/hazure.m4a'
 ];
 
