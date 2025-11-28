@@ -7,7 +7,7 @@ const incorrectButton = document.getElementById('incorrect-button');
 const correctSoundFiles = [
     'voice/seikai-Tanji.m4a',
     'voice/seikai-Nakane.m4a',
-    'voice/seikai.m4a',  
+    'voice/seikai.m4a'
 ]; 
 const incorrectSoundFiles = [
     'voice/hazure-Tanji.m4a',
@@ -15,7 +15,7 @@ const incorrectSoundFiles = [
     'voice/hazure-iimura1.m4a',
     'voice/hazure-iimura2.m4a',
     'voice/hazure-iimura3.m4a',
-    'voice/hazure.m4a',
+    'voice/hazure.m4a'
 ];
 
 /**
