@@ -41,8 +41,8 @@ function playSound(soundFile) {
 
 //ランダムな音を選ぶ関数
 function getRandomSoundFile(fileList){
-    const randomIndex = Math.floor(Math.random() * FileList.length);
-    return FileList[randomIndex];
+    const randomIndex = Math.floor(Math.random() * fileList.length);
+    return fileList[randomIndex];
 }
 
 // ③ イベントリスナーを設定
@@ -55,5 +55,5 @@ correctButton.addEventListener('click', () => {
 // 間違いボタンがクリックされたら間違い音を再生
 incorrectButton.addEventListener('click', () => {
     const randomFile = getRandomSoundFile(incorrectSoundFiles);
-    playSound(incorrectSound);
+    playSound(randomFile);
 });
